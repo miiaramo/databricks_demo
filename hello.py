@@ -31,7 +31,19 @@ dbutils.widgets.get("greeting")
 
 # COMMAND ----------
 
-# Adabtable - Install packages and import modules (demo: install package)
+# Adabtable - Install packages and import local modules (demo: install package)
+
+# COMMAND ----------
+
+name = "Miia"
+
+# COMMAND ----------
+
+# MAGIC %pip install pandas
+
+# COMMAND ----------
+
+dbutils.widgets.get("greeting")
 
 # COMMAND ----------
 
